@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.navbar{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background: #f44336;
+box-shadow: 0 3px 5px rgb(176, 40, 40);
+}
+.navbar_link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 24px;
+}
+.navbar_link a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.navbar_link:hover{
+    background: white;
+    
+}
+.navbar_link:hover a{
+    color: black;
+}
+.navbar .navbar_link:first-child{
+    background: white;
+}
+.wh{
+    color: black !important;
+}
+.header{
+    text-align: center;
+    background: #f44336;
+    padding: 150px 0 100px 0;
+
+}
+.header_title{
+    font-weight: 400;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 64px;
+    color: white;
+}
+.header span{
+    text-align: center;
+    display: block;
+    margin: 25px 0;
+    font-size: 24px;
+    color: white;
+}
+.header button{   
+    font-size: 18px; 
+    margin: 25px 0;
+    padding: 12px 24px;
+    background: black;
+    border: none;
+    color: white;
+}
+.main1{
+    padding: 70px 0;
+}
+.contener{
+    margin: 0 auto;
+    max-width: 980px;
+    display: flex;
+}
+.title{
+    margin: 50px 0;
+    font-size: 36px;
+}
+.main_text{
+    display: inline-block;
+    width: 800px;
+}
+.main_icon{
+    display: inline-block;
+    padding: 120px 50px;
+    width: 200px;
+}
+.main_icon i{
+    width: 100%;
+    font-size: 12em;
+    color: #f44336;
+}
+.main_text p{
+    line-height: 1.5;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.prtext{
+    color: #757575;
+}
+.main2{
+    padding: 50px 0;
+    background: #f1f1f1;
+}
+.main2_text p{
+    line-height: 1.5;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.main2_icon{
+    padding: 120px 50px;
+    width: 300px;
+}
+.main2_icon i{
+    width: 100%;
+    font-size: 13em;
+    color: #f44336;
+}
+.main2_text{
+    width: 800px;
+}
+.main3{
+    text-align: center;
+    background: #000;
+    opacity: 0.6;
+    padding: 80px 0;
+}
+.main3 span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.footer{
+    padding: 50px 0;
+}
+.footer_icon{
+    margin: 50px 0;
+    text-align: center;
+}
+.footer_icon i{
+    font-size: 1.3em;
+    color: #757575;
+    margin: 0 2px;
+}
+.footer_text{
+    color: #757575;
+    margin: 50px 0;
+    font-size: 15px;
+    text-align: center;
+}
+.footer_text a{
+    color: #757575;
+}
